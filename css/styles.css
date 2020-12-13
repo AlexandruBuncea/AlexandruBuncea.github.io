@@ -5,10 +5,13 @@
   }
 
 body {
-    width: 960px;
-    margin: 240px;
+    max-width: 960px;
+    margin: auto;
+    margin-top:16%;
+    margin-bottom:16%;
     font-family: 'Nunito', sans-serif;
     font-size: 16px;
     text-align: center;
     color: var(--content-primary);
 }
+
