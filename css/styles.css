@@ -10,4 +10,5 @@ body {
     font-family: 'Nunito', sans-serif;
     font-size: 16px;
     text-align: center;
+    color: var(--content-primary);
 }
