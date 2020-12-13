@@ -68,9 +68,18 @@ a {
 
 .navbar {
     width: 100%;
-    height: 144px;
+    height: 80px;
     left: 0px;
     top: 0px;
+}
+
+img {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.content {
+    padding-top: 180px;
 }
 
 /* Large devices (laptops/desktops, 960px and up) */
@@ -132,9 +141,18 @@ a {
     
     .navbar {
         width: 100%;
-        height: 144px;
+        height: 80px;
         left: 0px;
         top: 0px;
+    }
+
+    img {
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+
+    .content {
+        padding-top: 180px;
     }
   } 
 
@@ -205,4 +223,9 @@ a {
         padding-top: 4px;
         padding-bottom: 4px;
     }
+
+    .content {
+        padding-top: 80px;
+    }
   }
+  
