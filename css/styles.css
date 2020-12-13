@@ -5,8 +5,9 @@
   }
 
 body {
-    max-width: 960px;
-    margin: 100%;
+    width: 960px;
+    margin: 240px;
     font-family: 'Nunito', sans-serif;
     font-size: 16px;
+    text-align: center;
 }
