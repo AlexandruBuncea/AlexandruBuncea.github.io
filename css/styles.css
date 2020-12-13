@@ -2,7 +2,7 @@
     --content-primary: rgba(35, 40, 47, 1);
   }
 
-html {
+body {
     max-width: 960px;
     margin: auto;
     font-family: 'Nunito', sans-serif;
