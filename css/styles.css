@@ -190,7 +190,7 @@ a {
     
     .bottom-box {
         position: absolute;
-        width: 1440px;
+        width: auto;
         height: 238px;
         left: 0px;
         top: 786px;
@@ -198,7 +198,7 @@ a {
     }
     
     .navbar {
-        width: 1440px;
+        width: auto;
         height: 144px;
         left: 0px;
         top: 0px;
