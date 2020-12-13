@@ -7,7 +7,8 @@
     --content-secondary: rgba(70, 79, 93, 1);
     --content-tertiary: rgba(105, 119, 140, 1);
     --primaryGreen: rgba(43, 201, 154, 1);
-    --neutral100: rgba(220, 224, 229, 1)
+    --neutral100: rgba(220, 224, 229, 1);
+    --green400: rgba(104, 222, 187, 1);
   }
 
 
@@ -31,6 +32,11 @@ a {
     display: inline-block;
     padding-right: 16px;
 }
+
+.shadow-underline {
+    box-shadow: inset 0 -24px 0 var(--green400); 
+}
+
 
 .overline { 
     font-style: normal;
@@ -154,6 +160,7 @@ img {
     .content {
         padding-top: 180px;
     }
+
   } 
 
   /* Extra small devices (phones, 600px and down) */
