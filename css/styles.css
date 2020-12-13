@@ -6,6 +6,7 @@
     --content-primary: rgba(35, 40, 47, 1);
     --content-secondary: rgba(70, 79, 93, 1);
     --content-tertiary: rgba(105, 119, 140, 1);
+    --primaryGreen: rgba(43, 201, 154, 1);
   }
 
 body {
@@ -24,3 +25,13 @@ p {
     font-size: 18px;
 }
 
+a {
+    color: var(--primaryGreen);
+    font-size: 18px;
+    font-weight: 800;
+    margin: 8px;
+}
+
+.links {
+    margin-top: 24px;
+}
