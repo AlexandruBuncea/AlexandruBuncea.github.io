@@ -4,6 +4,8 @@
 
 :root {
     --content-primary: rgba(35, 40, 47, 1);
+    --content-secondary: rgba(70, 79, 93, 1);
+    --content-tertiary: rgba(105, 119, 140, 1);
   }
 
 body {
@@ -15,5 +17,10 @@ body {
     font-size: 16px;
     text-align: center;
     color: var(--content-primary);
+}
+
+p {
+    color: var(--content-secondary);
+    font-size: 18px;
 }
 
