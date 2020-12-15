@@ -81,8 +81,8 @@ a {
 }
 
 img {
-    padding-top: 12px;
-    padding-bottom: 12px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .content {
@@ -154,9 +154,9 @@ img {
     }
 
     img {
-        padding-top: 4px;
-        padding-bottom: 4px;
-    }
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }    
 
     .content {
         padding-top: 80px;
