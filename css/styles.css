@@ -121,6 +121,33 @@ p {
     text-align: center;
 }
 
+.cta {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 26px;
+    color: var(--primaryGreen);
+    text-decoration: none;
+    padding-bottom: 24px;
+    display: flex;
+    align-items: center;
+    transition: transform .1s;
+}
+
+.cta-icon {
+    padding-right: 16px;
+    transition: transform .1s;
+}
+
+.cta:hover, .cta-icon:hover {
+    filter: invert(47%) sepia(70%) saturate(402%) hue-rotate(111deg) brightness(100%) contrast(98%);
+    transform: scale(1.01);
+}
+
+.ctas {
+    margin-top: 32px;
+}
+
   /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     body {
