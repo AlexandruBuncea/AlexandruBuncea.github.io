@@ -17,9 +17,6 @@
 }
 
 /* General CSS Classes*/
-.bg-white {
-    background-color: #ffffff;
-}
 
 .bg-lightgray {
     background-color: rgba(220, 224, 229, 0.16);
@@ -116,13 +113,14 @@ p {
 }
 
 .descriptions {
+    width: 100%;
     padding-top: 32px;
     padding-bottom: 56px;
     display: flex;
 }
 
 .what-i-do {
-    width: 309px;
+    width: 100%;
     margin-right: 16px;
 }
 
@@ -146,6 +144,15 @@ p {
     height: 80px;
     top: 0px;
     padding-bottom: 0px;
+    background-color: #ffffff;
+}
+
+.navbar-icons {
+    display: flex;
+    flex-direction: row;
+    float: right;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .sticky {
@@ -172,14 +179,6 @@ p {
 
 .content h1:nth-child(2) {
     margin-bottom: 16px;
-}
-
-.navbar-icons {
-    display: flex;
-    flex-direction: row;
-    float: right;
-    padding-top: 20px;
-    padding-bottom: 20px;
 }
 
 .icon-link {
