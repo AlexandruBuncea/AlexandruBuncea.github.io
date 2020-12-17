@@ -271,6 +271,7 @@ p {
     
     .bottom-box {
         position: absolute;
+        width: 100%;
         left: 0px;
         margin-top: 32px;
     }
