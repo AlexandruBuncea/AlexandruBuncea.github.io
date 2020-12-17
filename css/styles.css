@@ -141,7 +141,7 @@ p {
 }
 
 .navbar {
-    overflow: hidden;
+    overflow: hidden
     width: 100%;
     height: 80px;
     top: 0px;
@@ -233,8 +233,13 @@ p {
 }
 
 
-  /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+  /* Extra small devices (phones, 700px and down) */
+@media only screen and (max-width: 700px) {
+    .width-padding-center {
+        padding: 24px;
+        margin: auto;
+    }   
+        
     body {
         margin: auto;
         font-family: 'Nunito Sans', sans-serif;
@@ -299,6 +304,10 @@ p {
         height: 64px;
         top: 0px;
         padding-bottom: 0px;
+    }
+
+    .navbar-icons {
+        visibility: hidden;
     }
 
     .sticky {
