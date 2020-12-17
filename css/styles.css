@@ -23,6 +23,16 @@
 
 .bg-lightgray {
     background-color: rgba(220, 224, 229, 0.16);
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.width-padding-center {
+    padding: 24px;
+    max-width: 960px;
+    margin: auto;
 }
 
 body {
@@ -31,8 +41,6 @@ body {
     font-size: 16px;
     text-align: left;
     color: var(--content-primary);
-    padding: 24px;
-    max-width: 960px;
 }
 
 p {
@@ -97,20 +105,22 @@ p {
     color: var(--content-secondary);
 }
 
-.bottom-box {
-    position: absolute;
+.bottom-box { 
+    margin-top: 120px; 
+    margin: 0;
+    padding: 0;
+    width: 100%
+}
+
+.bottom-box-content {
     width: 100%;
     left: 0px;
-    margin-top: 120px; 
 }
 
 .descriptions {
-    max-width: 960px;
-    margin: auto;
     margin-top: 32px;
+    padding-bottom: 56px;
     display: flex;
-    padding-left: 24px;
-    padding-right: 24px;
 }
 
 .what-i-do {
@@ -136,7 +146,6 @@ p {
     overflow: hidden;
     width: 100%;
     height: 80px;
-    left: 0px;
     top: 0px;
 }
 
@@ -268,19 +277,32 @@ p {
         font-size: 18px;
         line-height: 26px;
     }
-    
-    .bottom-box {
-        position: absolute;
-        width: 100%;
-        left: 0px;
-        margin-top: 32px;
+
+    .bottom-box { 
+        margin-top: 120px; 
+        margin: 0;
+        padding: 0;
+        width: 100%
     }
     
+    .bottom-box-content {
+        width: 100%;
+        left: 0px;
+    }
+    
+    
     .navbar {
+        overflow: hidden;
         width: 100%;
         height: 64px;
         left: 0px;
         top: 0px;
+    }
+
+    .sticky {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
     }
 
     .logo {
