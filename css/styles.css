@@ -9,7 +9,12 @@
     --primaryGreen: rgba(43, 201, 154, 1);
     --neutral100: rgba(220, 224, 229, 1);
     --green400: rgba(104, 222, 187, 1);
-  }
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
 
 
 body {
@@ -47,7 +52,7 @@ p {
     line-height: 18px;
     letter-spacing: 0.18em;
     text-transform: uppercase;
-    color: var(--content-tertiary)
+    color: var(--content-tertiary);
 }
 
 .display-s {
@@ -58,11 +63,30 @@ p {
     color: var(--content-primary);
 }
 
+.heading-s {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 32px;
+    color: var(--content-primary);
+}
+
 .body-l {
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
     line-height: 26px;
+    color: var(--content-primary);
+}
+
+.body-m {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--content-secondary);
 }
 
 .bottom-box {
@@ -72,6 +96,34 @@ p {
     left: 0px;
     top: 786px;
     background-color: rgba(220, 224, 229, 0.16);
+}
+
+.descriptions {
+    max-width: 960px;
+    margin: auto;
+    margin-top: 32px;
+    display: flex;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.what-i-do {
+    width: 309px;
+    margin-right: 16px;
+}
+
+.what-i-do img{
+    padding-bottom: 8px;
+}
+
+.what-i-do h1 {
+    padding-bottom: 4px;
+    margin: 0px;
+}
+
+.what-i-do p {
+    margin: 0px;
+    width: 80%;
 }
 
 .navbar {
@@ -90,6 +142,14 @@ p {
 
 .content {
     padding-top: 180px;
+}
+
+.content p {
+    margin-bottom: 24px;
+}
+
+.content h1:nth-child(2) {
+    margin-bottom: 16px;
 }
 
 .navbar-icons {
@@ -143,9 +203,10 @@ p {
     transform: scale(1.01);
 }
 
-.ctas {
+.cta-container {
     margin-top: 32px;
 }
+
 
   /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
