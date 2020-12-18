@@ -8,7 +8,8 @@
 
 </head>
 <body>
-    <div class="navbar sticky width-padding-center">
+    <div class="navbar-shadow sticky">
+    <div class="navbar width-padding-center">
         <img src="assets/Logo.svg" class="logo" alt="logo" />
         <div>
             <div class="navbar-icons">
@@ -20,6 +21,7 @@
                 <a href="https://www.youtube.com/channel/UCCtTiB0UXvw0f1TdXmwSpew" target=”_blank” class="icon-link"><img src="assets/navbar-icons/youtube.svg" class="social-icon" alt="YouTube"></a>
             </div>
         </div>  
+    </div>
     </div>
 
     <div class="content width-padding-center">
@@ -78,8 +80,8 @@
 
     <script>
         window.addEventListener('scroll',(e)=>{
-          const navbar = document.querySelector('.navbar');
-          if(window.pageYOffset>0){
+          const navbar = document.querySelector('.navbar-shadow');
+          if(window.pageYOffset>80){
             navbar.classList.add("add-shadow");
           }else{
             navbar.classList.remove("add-shadow");
