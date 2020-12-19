@@ -168,6 +168,10 @@ p {
     padding-bottom: 20px;
 }
 
+.navbar-icons-mobile {
+    visibility: hidden;
+}
+
 .sticky {
     position: -webkit-sticky;
 	position: sticky;
