@@ -328,6 +328,7 @@ p {
     }
 
     .navbar-icons-mobile {
+        visibility: hidden;
         display: inline-block;
         padding-top: 20px;
         padding-bottom: 20px;
