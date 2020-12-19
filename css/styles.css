@@ -323,6 +323,18 @@ p {
         visibility: hidden;
     }
 
+    .navbar-icons-mobile {
+        display: inline-block;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    .navbar-icons-mobile .icon-link {
+        margin-left: 0px;
+        padding: 0px;
+        margin-bottom: 16px;
+    }
+
     .sticky {
         position: -webkit-sticky;
         position: sticky;
