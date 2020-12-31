@@ -168,10 +168,6 @@ p {
     padding-bottom: 20px;
 }
 
-.navbar-icons-mobile {
-    visibility: hidden;
-}
-
 .sticky {
     position: -webkit-sticky;
 	position: sticky;
@@ -325,19 +321,6 @@ p {
 
     .navbar-icons {
         visibility: hidden;
-    }
-
-    .navbar-icons-mobile {
-        visibility: hidden;
-        display: inline-block;
-        padding-top: 20px;
-        padding-bottom: 20px;
-    }
-    
-    .navbar-icons-mobile .icon-link {
-        margin-left: 0px;
-        padding: 0px;
-        margin-bottom: 16px;
     }
 
     .sticky {
