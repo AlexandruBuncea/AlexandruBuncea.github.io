@@ -168,6 +168,10 @@ p {
     padding-bottom: 20px;
 }
 
+.mobile-only {
+    display: none;
+}
+
 .sticky {
     position: -webkit-sticky;
 	position: sticky;
@@ -301,7 +305,7 @@ p {
     }
 
     .bottom-box { 
-        margin-top: 56px; 
+        margin-top: 96px; 
         width: 100%
     }
     
@@ -320,7 +324,28 @@ p {
     }
 
     .navbar-icons {
-        visibility: hidden;
+        display: none;
+    }
+
+    .mobile-only {
+        display: inline;
+    }
+
+    .social-mobile {
+        display: flex;
+        flex-direction: row;
+        float: left;
+        margin-top: 16px;
+    }
+    
+    .social-mobile .icon-link {
+        display: inline;
+        width: 48px;
+        height: 48px;
+        padding: 0px;
+        margin: auto;
+        margin-right: 24px;
+        margin-bottom: 24px;
     }
 
     .sticky {
