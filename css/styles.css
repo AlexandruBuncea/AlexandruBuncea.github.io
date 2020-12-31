@@ -305,7 +305,7 @@ p {
     }
 
     .bottom-box { 
-        margin-top: 96px; 
+        margin-top: 56px; 
         width: 100%
     }
     
@@ -348,6 +348,10 @@ p {
         margin-bottom: 24px;
     }
 
+    .social-mobile .icon-link .social-icon{
+        padding: auto;
+    }
+
     .sticky {
         position: -webkit-sticky;
         position: sticky;
@@ -364,6 +368,7 @@ p {
         margin-top: 96px;
         padding-top: 0px;
         padding-bottom: 0px;
+        overflow: hidden;
     }
 
     .descriptions{
