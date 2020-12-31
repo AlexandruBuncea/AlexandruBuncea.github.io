@@ -321,6 +321,8 @@ p {
         height: 88px;
         top: 0px;
         padding-bottom: 0px;
+        background-color: #ffffff;
+        z-index: 1;
     }
 
     .navbar-icons {
@@ -329,28 +331,27 @@ p {
 
     .mobile-only {
         display: inline;
+        z-index: 2;
     }
 
     .social-mobile {
-        display: flex;
+        display: flexbox;
         flex-direction: row;
         float: left;
         margin-top: 16px;
     }
     
     .social-mobile .icon-link {
-        display: flex;
         width: 48px;
         height: 48px;
         padding: 0px;
         margin: auto;
         margin-right: 24px;
         margin-bottom: 24px;
+        position: relative;
+        z-index: -100;
     }
 
-    .social-mobile .icon-link .social-icon{
-        padding: auto;
-    }
 
     .sticky {
         position: -webkit-sticky;
